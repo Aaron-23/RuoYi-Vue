@@ -1,6 +1,7 @@
 -- ----------------------------
 -- 1、存储每一个已配置的 jobDetail 的详细信息
 -- ----------------------------
+use ry-vue;
 drop table if exists QRTZ_JOB_DETAILS;
 create table QRTZ_JOB_DETAILS (
     sched_name           varchar(120)    not null,
