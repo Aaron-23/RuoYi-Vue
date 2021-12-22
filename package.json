@@ -78,7 +78,7 @@
     "vue-template-compiler": "2.6.12"
   },
   "engines": {
-    "node": ">=8.9",
+    "node": "11.1.0",
     "npm": "6.4.1"
   },
   "browserslist": [
